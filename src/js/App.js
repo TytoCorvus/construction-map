@@ -1,5 +1,6 @@
 import {Fragment} from "react"
 import NavBar from "./NavBar.js"
+import MapManager from "./MapManager.js"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <Fragment>
       <NavBar></NavBar>
+      <MapManager></MapManager>
     </Fragment>
   );
 }

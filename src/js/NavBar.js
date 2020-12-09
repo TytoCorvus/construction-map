@@ -6,7 +6,7 @@ class NavBar extends Component{
         
 
         return(
-            <div className="center-align orange" style={{width: '100%'}}>
+            <div className="valign-wrapper orange" style={{width: '100%', height: '180px'}}>
                 NavBar
             </div>
         );
