@@ -8,10 +8,9 @@ function App() {
   //This should return two major sections - the navbar with the various navigation buttons along the top, and the space for the map down below.
 
   return (
-    <Fragment>
-      <NavBar></NavBar>
+    <div style={{height: '100vh'}}>
       <MapManager></MapManager>
-    </Fragment>
+      </div>
   );
 }
 

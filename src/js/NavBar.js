@@ -7,7 +7,14 @@ class NavBar extends Component{
 
         return(
             <div className="valign-wrapper orange" style={{width: '100%', height: '180px'}}>
-                NavBar
+                <div className="container">
+                    <div className="row">
+                        <button className="col s3 gray offset-s1"> Button 1</button>
+                        <button className="col s3 gray offset-s1"> Button 2</button>
+                        <button className="col s3 gray offset-s1"> Button 1</button>
+                    </div>
+                    
+                </div>
             </div>
         );
     }
