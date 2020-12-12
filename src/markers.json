@@ -1,0 +1,34 @@
+[
+    {
+        "name": "marker one",
+        "position": {
+            "lat": 43.614754372451884,
+            "lng": -116.19987129466638
+        },
+        "category": 1
+    },
+    {
+        "name": "SBG Idaho",
+        "position": {
+            "lat": 43.61876818474454,
+            "lng": -116.21621942141249
+        },
+        "category": 2
+    },
+    {
+        "name": "Goliath Games",
+        "position": {
+            "lat": 43.594157468554116,
+            "lng": -116.21398689870419
+        },
+        "category": 1
+    },
+    {
+        "name": "Military Reserve",
+        "position": {
+            "lat": 43.61951349534232,
+            "lng": -116.18068468572707
+        },
+        "category": 2
+    }
+]
