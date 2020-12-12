@@ -1,5 +1,6 @@
-import React, { Component, Fragment } from "react";
+import React, {Fragment} from "react";
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
+import InfoWindowContent from './InfoWindowContent';
 
 class MapManager extends React.Component {
   constructor(props) {
@@ -56,22 +57,18 @@ class MapManager extends React.Component {
 
       infoWindow =  
         <InfoWindow position={winState.position} onCloseClick={() => {this.setState({infoWindow:null})}} options={windowOptions}>
-          <div>
-            <h1><b>Project: {winState.name}</b></h1>
-          </div>
-          
-          
+          <InfoWindowContent name={winState.name}></InfoWindowContent>
         </InfoWindow> ;
       } else {
         infoWindow = <></>
       }
 
     return (
-      <LoadScript
-        googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}
-      >
+      <Fragment>
+        <LoadScript
+        googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
         <GoogleMap
-          mapContainerStyle={{ width: '100%', height: '100%' }}
+          mapContainerStyle={{ width: '100%', height: '90%' }}
           center={{
             lat: 43.614754372451884,
             lng: -116.19987129466638
@@ -88,8 +85,17 @@ class MapManager extends React.Component {
                     </Marker>
             })
           }
+          
         </GoogleMap>
       </LoadScript>
+          <div className="red container">
+            <div className="row" style={{position:'fixed', bottom: 0}}>
+              <div className="s8 offset-s2 center-align" >
+                <button>FOUND THE BUTTON</button>
+              </div>
+            </div>
+          </div>
+      </Fragment>
     )
   }
 }

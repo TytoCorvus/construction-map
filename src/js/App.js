@@ -9,8 +9,9 @@ function App() {
 
   return (
     <div style={{height: '100vh'}}>
+      <div className="blue"> Nav bar, I guess?</div>
       <MapManager></MapManager>
-      </div>
+    </div>
   );
 }
 
