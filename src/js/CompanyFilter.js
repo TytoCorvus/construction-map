@@ -16,6 +16,11 @@ class CompanyFilter extends Component {
     }
 
     render() {
+        return (
+            <div>
 
+
+            </div>
+        )
     }
 }
