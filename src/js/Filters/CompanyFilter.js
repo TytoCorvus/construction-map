@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import M from 'materialize-css';
 
 class CompanyFilter extends Component {
     constructor(props) {
@@ -15,12 +16,20 @@ class CompanyFilter extends Component {
         }
     }
 
-    render() {
-        return (
-            <div>
+    componentDidMount(){
+        var element = document.querySelectorAll('#company-filter')
+        M.FloatingActionButton.init(element, {direction: 'top', hoverEnabled: true})
+    }
+    
 
+    render() {
+        var {companies, buttonHeight} = this.state
+        return (
+            <div id="company-filter">
 
             </div>
         )
     }
 }
+
+export default CompanyFilter;

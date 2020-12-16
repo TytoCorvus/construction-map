@@ -1,34 +1,318 @@
 [
     {
-        "name": "marker one",
-        "position": {
-            "lat": 43.614754372451884,
-            "lng": -116.19987129466638
+        "name": "",
+        "address":{
+            "country": "",
+            "state": "",
+            "city": "",
+            "street_address":"",
+            "postal_code": 1
         },
-        "category": 1
+        "position":{
+            "lat": 1,
+            "lng": 1
+        },
+        "company": "",
+        "yearComplete": 1
     },
     {
-        "name": "SBG Idaho",
-        "position": {
-            "lat": 43.61876818474454,
-            "lng": -116.21621942141249
+        "name": "Gibson 200",
+        "address":{
+            "country": "United States",
+            "state": "Nevada",
+            "city": "Henderson",
+            "street_address":"980 American Pacific Dr",
+            "postal_code": 89014
         },
-        "category": 2
+        "position":{
+            "lat": 36.22116595884936,  
+            "lng": -115.03666351666105
+        },
+        "company": "Panattoni",
+        "yearComplete": 1996
     },
     {
-        "name": "Goliath Games",
-        "position": {
-            "lat": 43.594157468554116,
-            "lng": -116.21398689870419
+        "name": "Gibson 200",
+        "address":{
+            "country": "United States",
+            "state": "Nevada",
+            "city": "Henderson",
+            "street_address":"882 American Pacific Dr",
+            "postal_code": 89014
         },
-        "category": 1
+        "position":{
+            "lat": 36.042854064267786,   
+            "lng": -115.02575055542377
+        },
+        "company": "Panattoni",
+        "yearComplete": 1996
     },
     {
-        "name": "Military Reserve",
-        "position": {
-            "lat": 43.61951349534232,
-            "lng": -116.18068468572707
+        "name": "Petaluma",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Petaluma",
+            "street_address":"1445 Technology Ln",
+            "postal_code": 94954
         },
-        "category": 2
+        "position":{
+            "lat": 38.231003992363384,
+            "lng": -122.60196646377761
+        },
+        "company": "Catalyst Construction",
+        "yearComplete": 2005
+    },
+    {
+        "name": "Granite Park",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Sacramento",
+            "street_address":"3331 Power Inn Rd",
+            "postal_code": 95826
+        },
+        "position":{
+            "lat": 38.54343845849119, 
+            "lng": -121.40734103656806
+        },
+        "company": "Panattoni",
+        "yearComplete": 2005
+    },
+    {
+        "name": "Project Bronco",
+        "address":{
+
+        },
+        "position":{
+            "lat": 43.60287376462016, 
+            "lng": -116.50037059336226
+        },
+        "company": "Panattoni",
+        "yearComplete": 2020
+    },
+    {
+        "name": "EDC Animal Shelter",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Diamond Springs",
+            "street_address":"6435 Capitol Ave",
+            "postal_code": 95619
+        },
+        "position":{
+            "lat": 38.696198834285944,
+            "lng": -120.83313428333766
+        },
+        "company": "El Dorado County",
+        "yearComplete": 2010
+    },
+    {
+        "name": "Placerville Sheriff's Office",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Placerville",
+            "street_address":"177 Industrial Dr",
+            "postal_code": 95667
+        },
+        "position":{
+            "lat": 38.69949362816883,  
+            "lng": -120.8283620345482
+        },
+        "company": "El Dorado County",
+        "yearComplete": 2010
+    },
+    {
+        "name": "Inglewood Fedex",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Inglewood",
+            "street_address":"687 N Eucalyptus",
+            "postal_code": 90302
+        },
+        "position":{
+            "lat": 33.97097201581467, 
+            "lng": -118.36032116901882
+        },
+        "company": "Panattoni",
+        "yearComplete": 2016
+    },
+    {
+        "name": "Ball Glass",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Fairfield",
+            "street_address":"5191",
+            "postal_code": 94534
+        },
+        "position":{
+            "lat": 38.204017839381756, 
+            "lng": -122.14237215249585
+        },
+        "company": "Panattoni",
+        "yearComplete": 1998
+    },
+    {
+        "name": "Schmalback Lubeca",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Fairfield",
+            "street_address":"2425 S Watney Way",
+            "postal_code": 94533
+        },
+        "position":{
+            "lat": 38.2326019375231, 
+            "lng": -122.07362335056114
+        },
+        "company": "Panattoni",
+        "yearComplete": 1999
+    },
+    {
+        "name": "Schmalback Lubeca",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Fairfield",
+            "street_address":"2425 S Watney Way",
+            "postal_code": 94533
+        },
+        "position":{
+            "lat": 38.2326019375231, 
+            "lng": -122.07362335056114
+        },
+        "company": "Panattoni",
+        "yearComplete": 1999
+    },
+    {
+        "name": "Todd Road - Three Buildings",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Santa Rosa",
+            "street_address":"237 Todd Road",
+            "postal_code": 95407
+        },
+        "position":{
+            "lat": 38.38803328205289, 
+            "lng": -122.72141779567828
+        },
+        "company": "Catalyst Construction",
+        "yearComplete": 2007
+    },
+    {
+        "name": "McKesson Medical Surgical",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Roseville",
+            "street_address":"7701 Foothills Blvd",
+            "postal_code": 95407
+        },
+        "position":{
+            "lat": 38.77977469518295, 
+            "lng": -121.31262097584244 
+        },
+        "company": "Panattoni",
+        "yearComplete": 2017
+    },
+    {
+        "name": "Nichols Blvd",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Rocklin",
+            "street_address":"1495 Nichols Blvd",
+            "postal_code": 95765
+        },
+        "position":{
+            "lat": 38.81033646353279, 
+            "lng": -121.31502457831529
+        },
+        "company": "Catalyst Construction",
+        "yearComplete": 2004
+    },
+    {
+        "name": "Nichols Industrial Park",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Rocklin",
+            "street_address":"1000 Nichols Drive",
+            "postal_code": 95765
+        },
+        "position":{
+            "lat": 38.811843721056675, 
+            "lng": -121.30861350792645
+        },
+        "company": "Catalyst Construction",
+        "yearComplete": 2006
+    },
+    {
+        "name": "45th Drive, Golden",
+        "address":{
+            "country": "United States",
+            "state": "Colorado",
+            "city": "Golden",
+            "street_address":"16163 W 45th Drive",
+            "postal_code": 80403
+        },
+        "position":{
+            "lat": 39.779278890410055,  
+            "lng": -105.18341254929679
+        },
+        "company": "Panattoni",
+        "yearComplete": 2000
+    },
+    {
+        "name": "LAS1",
+        "address":{
+            "country": "United States",
+            "state": "Nevada",
+            "city": "Henderson",
+            "street_address":"12300 Bermuda Road",
+            "postal_code": 89044
+        },
+        "position":{
+            "lat": 35.964919936126236, 
+            "lng": -115.15199382814217
+        },
+        "company": "Panattoni",
+        "yearComplete": 2020
+    },
+    {
+        "name": "400 Sunrise",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Roseville",
+            "street_address":"400 Sunrise Avenue",
+            "postal_code": 95661
+        },
+        "position":{
+            "lat": 38.74033133744252,  
+            "lng": -121.27284210696747
+        },
+        "company": "Catalyst Construction",
+        "yearComplete": 2006
+    },
+    {
+        "name": "March Fong Eu Secretary of State",
+        "address":{
+            "country": "United States",
+            "state": "California",
+            "city": "Sacramento",
+            "street_address":"1500 11th St",
+            "postal_code": 95814
+        },
+        "position":{
+            "lat": 38.57445425531149,   
+            "lng": -121.49493078059713
+        },
+        "company": "Hensel Phelps",
+        "yearComplete": 2002
     }
 ]

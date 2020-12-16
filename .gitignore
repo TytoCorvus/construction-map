@@ -4,6 +4,8 @@ env_variables
 env_variables/*
 .env
 
+public/img/*
+
 # dependencies
 /node_modules
 /.pnp

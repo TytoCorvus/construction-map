@@ -8,8 +8,8 @@ function App() {
   //This should return two major sections - the navbar with the various navigation buttons along the top, and the space for the map down below.
 
   return (
-    <div style={{height: '100vh'}}>
-      <div className="blue"> Nav bar, I guess?</div>
+    <div style={{height: '100vh', justify:'center'}}>
+      <div className="nav-wrapper blue" style={{height: '5%'}}> Nav bar, I guess?</div>
       <MapManager></MapManager>
     </div>
   );

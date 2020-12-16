@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
 import markers_raw from '../markers'
 import InfoWindowContent from './InfoWindowContent';
-import FilterTool from './FilterTool'
+import FilterTool from './Filters/FilterTool'
 
 class MapManager extends React.Component {
   constructor(props) {
@@ -10,6 +10,13 @@ class MapManager extends React.Component {
 
     this.state = {
       map: null,
+      mapFocus: {
+        center: {
+          lat: 43.84716537198397, 
+          lng: -97.48872773398878
+        },
+        zoom: 4
+      }, 
       infoWindow: null,
       markers_raw: markers_raw,
       markers_filtered: markers_raw,
@@ -31,9 +38,20 @@ class MapManager extends React.Component {
     this.setState({ map: map })
   }
 
+
+
   filterUpdate = (newFilter) => { this.setState({ filter: newFilter }) }
 
+  focusUpdate = (newFocus) => {
+    this.setState({mapFocus: newFocus})
+  }
+
+
   render() {
+    let {center, zoom} = this.state.mapFocus;
+    let marker_path_base = './img/markers/'
+    let marker_path_suffix = '-marker-20.png'
+
     let infoWindow;
 
     if (this.state.infoWindow != null) {
@@ -54,19 +72,18 @@ class MapManager extends React.Component {
         <LoadScript
           googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
           <GoogleMap
-            mapContainerStyle={{ width: '100%', height: '90%' }}
-            center={{
-              lat: 43.614754372451884,
-              lng: -116.19987129466638
-            }}
-            zoom={12}
+            mapContainerStyle={{ width: '100%', height: '95%' }}
+            center={center}
+            zoom={zoom}
             onLoad={this.onLoad}
             onUnmount={this.onUnmount}
           >
             {infoWindow}
             {
-              this.state.markers_filtered.filter(this.state.filter).map(marker => {
-                return <Marker position={marker.position} onClick={() => { this.setState({ infoWindow: { position: marker.position, name: marker.name } }) }}>
+              this.state.markers_filtered.filter((item) => {return item.position.lat && item.position.lng && this.state.filter(item)}).map(marker => {
+                var marker_path = marker.company != undefined && marker.company != null ? marker_path_base + marker.company + marker_path_suffix :  marker_path_base + 'default-marker-20.png'
+
+                return <Marker icon={marker_path} options={{animation:"DROP"}} position={marker.position} onClick={() => { this.setState({ infoWindow: { position: marker.position, name: marker.name } }) }}>
 
                 </Marker>
               })
@@ -74,7 +91,7 @@ class MapManager extends React.Component {
 
           </GoogleMap>
         </LoadScript>
-        <FilterTool filterUpdate={this.filterUpdate}></FilterTool>
+        <FilterTool filterUpdate={this.filterUpdate} focusUpdate={this.focusUpdate}></FilterTool>
       </Fragment>
     )
   }
