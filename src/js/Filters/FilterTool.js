@@ -27,9 +27,9 @@ class FilterTool extends Component {
     }
 
     updateSingleFilter = (filterName) => (newFilter) => {
-        this.setState({
-            [filterName]: newFilter
-        })
+        this.props.filterUpdate({
+                [filterName]: newFilter
+            })
     }
 
     render() {
@@ -48,8 +48,8 @@ class FilterTool extends Component {
                 </div>
                 <div className="container grey z-depth-2">
                     <div className="row valign-wrapper" style={{height: '100%'}}>
-                        <div className="col s3 center-align" style={sectionStyle}>Company</div>
-                        <div className="col s3 center-align" style={sectionStyle}><YearTool minYear={1990} maxYear={2020}></YearTool></div>
+                        <div className="col s3 center-align" style={sectionStyle}><CompanyFilter filterUpdate={this.updateSingleFilter('company')}/></div>
+                        <div className="col s3 center-align" style={sectionStyle}><YearTool filterUpdate={this.updateSingleFilter('year')} minYear={1990} maxYear={2020}/></div>
                         <div className="col s3 center-align" style={sectionStyle}><FocusTool focusUpdate={this.props.focusUpdate}/></div>
                         <div className="col s3 center-align" style={sectionStyle}>All / Clear</div>
                     </div>

@@ -20,7 +20,9 @@ class MapManager extends React.Component {
       infoWindow: null,
       markers_raw: markers_raw,
       markers_filtered: markers_raw,
-      filter: (marker) => { return true; }
+      filters:{
+        company: []
+      }
     }
   }
 
@@ -40,7 +42,7 @@ class MapManager extends React.Component {
 
 
 
-  filterUpdate = (newFilter) => { this.setState({ filter: newFilter }) }
+  filterUpdate = (newFilters) => { this.setState({ filters: newFilters }) }
 
   focusUpdate = (newFocus) => {
     this.setState({mapFocus: newFocus})
@@ -66,6 +68,8 @@ class MapManager extends React.Component {
       infoWindow = <></>
     }
 
+    const {filters} = this.state
+    let filtered_markers = this.state.markers_raw.filter((marker) => {return filters.company.includes(marker.company)})
 
     return (
       <Fragment>
@@ -80,10 +84,10 @@ class MapManager extends React.Component {
           >
             {infoWindow}
             {
-              this.state.markers_filtered.filter((item) => {return item.position.lat && item.position.lng && this.state.filter(item)}).map(marker => {
+              filtered_markers.filter((item) => {return item.position.lat && item.position.lng}).map(marker => {
                 var marker_path = marker.company != undefined && marker.company != null ? marker_path_base + marker.company + marker_path_suffix :  marker_path_base + 'default-marker-20.png'
 
-                return <Marker icon={marker_path} options={{animation:"DROP"}} position={marker.position} onClick={() => { this.setState({ infoWindow: { position: marker.position, name: marker.name } }) }}>
+                return <Marker icon={marker_path} options={{animation:'DROP'}} position={marker.position} onClick={() => { this.setState({ infoWindow: { position: marker.position, name: marker.name } }) }}>
 
                 </Marker>
               })
