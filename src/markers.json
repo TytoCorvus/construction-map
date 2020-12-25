@@ -1,318 +1,394 @@
 [
     {
-        "name": "",
-        "address":{
-            "country": "",
-            "state": "",
-            "city": "",
-            "street_address":"",
-            "postal_code": 1
-        },
-        "position":{
-            "lat": 1,
-            "lng": 1
-        },
-        "company": "",
-        "yearComplete": 1
-    },
-    {
         "name": "Gibson 200",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "Nevada",
             "city": "Henderson",
-            "street_address":"980 American Pacific Dr",
+            "street_address": "980 American Pacific Dr",
             "postal_code": 89014
         },
-        "position":{
-            "lat": 36.22116595884936,  
+        "position": {
+            "lat": 36.22116595884936,
             "lng": -115.03666351666105
         },
-        "company": "Panattoni",
-        "yearComplete": 1996
+        "company": "Panattoni Construction",
+        "yearComplete": 1996,
+        "streetView": "https://www.google.com/maps/@36.0418677,-115.0276412,3a,75y,10.85h,85.41t/data=!3m7!1e1!3m5!1sudFoCCZI3iUu97HdnEDzZg!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3DudFoCCZI3iUu97HdnEDzZg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D146.32433%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192"
     },
     {
         "name": "Gibson 200",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "Nevada",
             "city": "Henderson",
-            "street_address":"882 American Pacific Dr",
+            "street_address": "882 American Pacific Dr",
             "postal_code": 89014
         },
-        "position":{
-            "lat": 36.042854064267786,   
+        "position": {
+            "lat": 36.042854064267786,
             "lng": -115.02575055542377
         },
-        "company": "Panattoni",
-        "yearComplete": 1996
+        "company": "Panattoni Construction",
+        "yearComplete": 1996,
+        "streetView": "https://www.google.com/maps/@36.0420939,-115.0251561,3a,75y,312.78h,92.68t/data=!3m7!1e1!3m5!1sfX7xObXQtyZBmlpC0LK1cg!2e0!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3DfX7xObXQtyZBmlpC0LK1cg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D252.69566%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192"
     },
     {
         "name": "Petaluma",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Petaluma",
-            "street_address":"1445 Technology Ln",
+            "street_address": "1445 Technology Ln",
             "postal_code": 94954
         },
-        "position":{
+        "position": {
             "lat": 38.231003992363384,
             "lng": -122.60196646377761
         },
         "company": "Catalyst Construction",
-        "yearComplete": 2005
+        "yearComplete": 2005,
+        "streetView": "https://www.google.com/maps/@38.2307964,-122.6029393,3a,75y,77.4h,90t/data=!3m7!1e1!3m5!1s0BOW9v3AEpVNmUFCImZeVg!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3D0BOW9v3AEpVNmUFCImZeVg%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D74.11234%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192"
     },
     {
         "name": "Granite Park",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Sacramento",
-            "street_address":"3331 Power Inn Rd",
+            "street_address": "3331 Power Inn Rd",
             "postal_code": 95826
         },
-        "position":{
-            "lat": 38.54343845849119, 
+        "position": {
+            "lat": 38.54343845849119,
             "lng": -121.40734103656806
         },
-        "company": "Panattoni",
-        "yearComplete": 2005
+        "company": "Panattoni Construction",
+        "yearComplete": 2005,
+        "streetView": "https://www.google.com/maps/@38.543235,-121.4077108,3a,75y,51.09h,108.24t/data=!3m7!1e1!3m5!1stPBHfy70pqTcbUxtfx-0zA!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DtPBHfy70pqTcbUxtfx-0zA%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D333.1499%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192"
     },
     {
         "name": "Project Bronco",
-        "address":{
-
-        },
-        "position":{
-            "lat": 43.60287376462016, 
+        "address": {},
+        "position": {
+            "lat": 43.60287376462016,
             "lng": -116.50037059336226
         },
-        "company": "Panattoni",
+        "company": "Panattoni Construction",
         "yearComplete": 2020
     },
     {
         "name": "EDC Animal Shelter",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Diamond Springs",
-            "street_address":"6435 Capitol Ave",
+            "street_address": "6435 Capitol Ave",
             "postal_code": 95619
         },
-        "position":{
+        "position": {
             "lat": 38.696198834285944,
             "lng": -120.83313428333766
         },
         "company": "El Dorado County",
-        "yearComplete": 2010
+        "yearComplete": 2010,
+        "streetView": "https://www.google.com/maps/@38.6953116,-120.8319205,3a,75y,309.89h,85.4t/data=!3m6!1e1!3m4!1sy7OG-i9ZMKIWLA8ShlpMZQ!2e0!7i13312!8i6656"
     },
     {
         "name": "Placerville Sheriff's Office",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Placerville",
-            "street_address":"177 Industrial Dr",
+            "street_address": "177 Industrial Dr",
             "postal_code": 95667
         },
-        "position":{
-            "lat": 38.69949362816883,  
+        "position": {
+            "lat": 38.69949362816883,
             "lng": -120.8283620345482
         },
         "company": "El Dorado County",
-        "yearComplete": 2010
+        "yearComplete": 2010,
+        "streetView": "https://www.google.com/maps/@38.6992789,-120.8284423,3a,75y,214.8h,88.11t/data=!3m7!1e1!3m5!1sCbNDi_ARa8tWw7jpioBIxQ!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DCbNDi_ARa8tWw7jpioBIxQ%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D253.08365%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656"
     },
     {
         "name": "Inglewood Fedex",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Inglewood",
-            "street_address":"687 N Eucalyptus",
+            "street_address": "687 N Eucalyptus",
             "postal_code": 90302
         },
-        "position":{
-            "lat": 33.97097201581467, 
+        "position": {
+            "lat": 33.97097201581467,
             "lng": -118.36032116901882
         },
-        "company": "Panattoni",
-        "yearComplete": 2016
+        "company": "Panattoni Construction",
+        "yearComplete": 2016,
+        "streetView": "https://www.google.com/maps/@33.9712524,-118.3592947,3a,75y,212.2h,106.19t/data=!3m6!1e1!3m4!1sZ0TP7a1H3cf38NG6qXmZ2g!2e0!7i16384!8i8192"
     },
     {
         "name": "Ball Glass",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Fairfield",
-            "street_address":"5191",
+            "street_address": "5191 Fermi Dr",
             "postal_code": 94534
         },
-        "position":{
-            "lat": 38.204017839381756, 
+        "position": {
+            "lat": 38.204017839381756,
             "lng": -122.14237215249585
         },
-        "company": "Panattoni",
-        "yearComplete": 1998
+        "company": "Panattoni Construction",
+        "yearComplete": 1998,
+        "streetView": "https://www.google.com/maps/@38.20225,-122.1431205,3a,75y,26.63h,85.28t/data=!3m6!1e1!3m4!1sa76YdQZxdD9Y_sEkoNuQyA!2e0!7i16384!8i8192"
     },
     {
         "name": "Schmalback Lubeca",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Fairfield",
-            "street_address":"2425 S Watney Way",
+            "street_address": "2425 S Watney Way",
             "postal_code": 94533
         },
-        "position":{
-            "lat": 38.2326019375231, 
+        "position": {
+            "lat": 38.2326019375231,
             "lng": -122.07362335056114
         },
-        "company": "Panattoni",
-        "yearComplete": 1999
-    },
-    {
-        "name": "Schmalback Lubeca",
-        "address":{
-            "country": "United States",
-            "state": "California",
-            "city": "Fairfield",
-            "street_address":"2425 S Watney Way",
-            "postal_code": 94533
-        },
-        "position":{
-            "lat": 38.2326019375231, 
-            "lng": -122.07362335056114
-        },
-        "company": "Panattoni",
-        "yearComplete": 1999
+        "company": "Panattoni Construction",
+        "yearComplete": 1999,
+        "streetView": "https://www.google.com/maps/@38.2330241,-122.074095,3a,75y,129.89h,90.52t/data=!3m6!1e1!3m4!1sdZAlEUiYg7YgwlrqslrSIw!2e0!7i13312!8i6656"
     },
     {
         "name": "Todd Road - Three Buildings",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Santa Rosa",
-            "street_address":"237 Todd Road",
+            "street_address": "237 Todd Road",
             "postal_code": 95407
         },
-        "position":{
-            "lat": 38.38803328205289, 
+        "position": {
+            "lat": 38.38803328205289,
             "lng": -122.72141779567828
         },
         "company": "Catalyst Construction",
-        "yearComplete": 2007
+        "yearComplete": 2007,
+        "streetView": "https://www.google.com/maps/@38.3871645,-122.7210007,3a,75y,335.97h,89.05t/data=!3m7!1e1!3m5!1saDnqtziy7T51g-wfAI3uQQ!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3DaDnqtziy7T51g-wfAI3uQQ%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D87.220505%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192"
     },
     {
         "name": "McKesson Medical Surgical",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Roseville",
-            "street_address":"7701 Foothills Blvd",
+            "street_address": "7701 Foothills Blvd",
             "postal_code": 95407
         },
-        "position":{
-            "lat": 38.77977469518295, 
-            "lng": -121.31262097584244 
+        "position": {
+            "lat": 38.77977469518295,
+            "lng": -121.31262097584244
         },
-        "company": "Panattoni",
-        "yearComplete": 2017
+        "company": "Panattoni Construction",
+        "yearComplete": 2017,
+        "streetView": "https://www.google.com/maps/uv?pb=!1s0x809b21b624b4a0b3%3A0xc63d265aa2e6886b!3m1!7e115!4s%2Fmaps%2Fplace%2F7701%2BFoothills%2BBlvd%2BRoseville%2C%2BCalifornia%2B95407%2F%4038.7808433%2C-121.3114336%2C3a%2C75y%2C59.12h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sv24Wa4d0Lk1g4TUtAUEXqA*212e0*214m2*213m1*211s0x809b21b624b4a0b3%3A0xc63d265aa2e6886b%3Fsa%3DX!5s7701%20Foothills%20Blvd%20Roseville%2C%20California%2095407%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e2!2sv24Wa4d0Lk1g4TUtAUEXqA&hl=en&sa=X&ved=2ahUKEwiD3_HN8N_tAhXTpZ4KHZ8EBa0Qpx8wCnoECBQQAw"
     },
     {
         "name": "Nichols Blvd",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Rocklin",
-            "street_address":"1495 Nichols Blvd",
+            "street_address": "1495 Nichols Drive",
             "postal_code": 95765
         },
-        "position":{
-            "lat": 38.81033646353279, 
+        "position": {
+            "lat": 38.81033646353279,
             "lng": -121.31502457831529
         },
         "company": "Catalyst Construction",
-        "yearComplete": 2004
+        "yearComplete": 2004,
+        "streetView": "https://www.google.com/maps/@38.8106688,-121.3147963,3a,75y,212.4h,93.87t/data=!3m6!1e1!3m4!1sTUCzL6UgulUVks8kPRttjA!2e0!7i16384!8i8192"
     },
     {
         "name": "Nichols Industrial Park",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Rocklin",
-            "street_address":"1000 Nichols Drive",
+            "street_address": "1000 Nichols Drive",
             "postal_code": 95765
         },
-        "position":{
-            "lat": 38.811843721056675, 
+        "position": {
+            "lat": 38.811843721056675,
             "lng": -121.30861350792645
         },
         "company": "Catalyst Construction",
-        "yearComplete": 2006
+        "yearComplete": 2006,
+        "streetView": "https://www.google.com/maps/@38.810626,-121.3089893,3a,75y,10.4h,92.46t/data=!3m7!1e1!3m5!1sCptzzg9NmF1NGbvAwCv6hw!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3DCptzzg9NmF1NGbvAwCv6hw%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D359.29083%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656"
     },
     {
         "name": "45th Drive, Golden",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "Colorado",
             "city": "Golden",
-            "street_address":"16163 W 45th Drive",
+            "street_address": "16163 W 45th Drive",
             "postal_code": 80403
         },
-        "position":{
-            "lat": 39.779278890410055,  
+        "position": {
+            "lat": 39.779278890410055,
             "lng": -105.18341254929679
         },
-        "company": "Panattoni",
-        "yearComplete": 2000
+        "company": "Panattoni Construction",
+        "yearComplete": 2000,
+        "streetView": "https://www.google.com/maps/@39.7786191,-105.1819155,3a,75y,306.94h,92.71t/data=!3m6!1e1!3m4!1sH0XsUFyk8jQpEECQQeT6hw!2e0!7i16384!8i8192"
     },
     {
         "name": "LAS1",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "Nevada",
             "city": "Henderson",
-            "street_address":"12300 Bermuda Road",
+            "street_address": "12300 Bermuda Road",
             "postal_code": 89044
         },
-        "position":{
-            "lat": 35.964919936126236, 
+        "position": {
+            "lat": 35.964919936126236,
             "lng": -115.15199382814217
         },
-        "company": "Panattoni",
+        "company": "Panattoni Construction",
         "yearComplete": 2020
     },
     {
         "name": "400 Sunrise",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Roseville",
-            "street_address":"400 Sunrise Avenue",
+            "street_address": "400 Sunrise Avenue",
             "postal_code": 95661
         },
-        "position":{
-            "lat": 38.74033133744252,  
+        "position": {
+            "lat": 38.74033133744252,
             "lng": -121.27284210696747
         },
         "company": "Catalyst Construction",
-        "yearComplete": 2006
+        "yearComplete": 2006,
+        "streetView": "https://www.google.com/maps/@38.7401137,-121.2724138,3a,75y,277.45h,96.34t/data=!3m7!1e1!3m5!1sLWVE4-eCCEtkzrPyaofCHw!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3DLWVE4-eCCEtkzrPyaofCHw%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D66.49539%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192"
     },
     {
         "name": "March Fong Eu Secretary of State",
-        "address":{
+        "address": {
             "country": "United States",
             "state": "California",
             "city": "Sacramento",
-            "street_address":"1500 11th St",
+            "street_address": "1500 11th St",
             "postal_code": 95814
         },
-        "position":{
-            "lat": 38.57445425531149,   
+        "position": {
+            "lat": 38.57445425531149,
             "lng": -121.49493078059713
         },
         "company": "Hensel Phelps",
-        "yearComplete": 2002
+        "yearComplete": 2002,
+        "streetView": "https://www.google.com/maps/@38.5744964,-121.4946032,3a,75y,243.38h,105.1t/data=!3m6!1e1!3m4!1s-vbiHBqoZmzljJMU2gAdaQ!2e0!7i16384!8i8192"
+    },
+    {
+        "name": "King County Superior Courty",
+        "address": {
+            "country": "United States",
+            "state": "Washington",
+            "city": "Kent",
+            "street_address": "401 4th Ave N",
+            "postal_code": 98032
+        },
+        "position": {
+            "lat": 47.3848981818961,
+            "lng": -122.23814044563423
+        },
+        "company": "Hensel Phelps",
+        "yearComplete": 1995,
+        "streetView": "https://www.google.com/maps/@47.3843042,-122.2372684,3a,75y,306.81h,97.58t/data=!3m6!1e1!3m4!1srWzJkMilroZqNLV1mDDtNw!2e0!7i16384!8i8192"
+    },
+    {
+        "name": "LIT2",
+        "address": {},
+        "position": {
+            "lat": 34.695162,
+            "lng": -92.205635
+        },
+        "company": "Panattoni Construction",
+        "yearComplete": 2021
+    },
+    {
+        "name": "MQY1",
+        "address": {},
+        "position": {
+            "lat": 36.190623,
+            "lng": -86.479634
+        },
+        "company": "Panattoni Construction",
+        "yearComplete": 2021
+    },
+    {
+        "name": "LIT2 1.2M",
+        "address": {},
+        "position": {
+            "lat": 34.777917,
+            "lng": -92.118540
+        },
+        "company": "Panattoni Construction",
+        "yearComplete": 2021
+    },
+    {
+        "name": "YHM1",
+        "address": {},
+        "position": {
+            "lat": 43.174764,
+            "lng": -79.911626
+        },
+        "company": "Panattoni Construction",
+        "yearComplete": 2021
+    },
+    {
+        "name": "YEG2",
+        "address": {},
+        "position": {
+            "lat": 53.538453,
+            "lng": -113.803995
+        },
+        "company": "Panattoni Construction",
+        "yearComplete": 2021
+    },
+    {
+        "name": "DSR2",
+        "address": {},
+        "position": {
+            "lat": 38.779461,
+            "lng": -121.311774
+        },
+        "company": "Panattoni Construction",
+        "yearComplete": 2021
+    },
+    {
+        "name": "El Dorado County Jail",
+        "address": {
+            "country": "United States",
+            "state": "California",
+            "city": "Placerville",
+            "street_address": "300 Forni Rd",
+            "postal_code": 95667
+        },
+        "position": {
+            "lat": 38.72475112372784,
+            "lng": -120.82392830881484
+        },
+        "company": "El Dorado County",
+        "yearComplete": 2014,
+        "streetView": "https://www.google.com/maps/@38.7246477,-120.8239011,3a,75y,163.26h,90.47t/data=!3m7!1e1!3m5!1s0qaMCtrTNo6D-v3sBvcOkQ!2e0!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3D0qaMCtrTNo6D-v3sBvcOkQ%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D168.90321%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656"
     }
 ]

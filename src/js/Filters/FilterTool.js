@@ -1,58 +1,62 @@
 import React, { Component } from 'react';
 import CompanyFilter from './CompanyFilter';
 import FocusTool from './FocusTool';
-import YearTool from './YearTool';
-
-import M from 'materialize-css';
+import ResetTool from './ResetTool';
 
 class FilterTool extends Component {
     static defaultProps = {
-        filterButtonClassNames: "col s3",
-        tempStorage: ""
+        filterButtonClassNames: "col s3"
     }
-    
+
     constructor(props) {
         super(props)
 
         var defaultFilter = () => { return false; } //By default return none
-
+        this.state = {
+            windowEnabled: false
+        }
     }
 
-    createSumOfFilters = () => {
-
-    }
-
-    getFilterFromAllChildren() {
-
+    flipEnabled = () => () => {
+        console.log(this.state.windowEnabled)
+        this.setState({ windowEnabled: !this.state.windowEnabled })
     }
 
     updateSingleFilter = (filterName) => (newFilter) => {
         this.props.filterUpdate({
-                [filterName]: newFilter
-            })
+            [filterName]: newFilter
+        })
     }
 
     render() {
         var filterButtonClasses = this.props.filterButtonClassNames
 
-        var containerStyle = {position: 'absolute', bottom: '0px', width: '100%', height: '0%', backgroundColor: 'transparent'}
-        var sectionStyle = {border: '2px solid', borderColor: 'silver', borderRadius: '4px', margin: '5px'}
+        var containerStyle = { position: 'absolute', bottom: '10px', width: '100%', height: '30%', backgroundColor: 'transparent' }
+        var sectionStyle = { border: '2px solid', borderColor: 'silver', borderRadius: '4px', margin: '5px' }
+        var iconClasses = "btn-floating btn-large red darken-1"
+        var iconName = "close"
+
+
+        if (!this.state.windowEnabled) {
+            containerStyle.pointerEvents = 'none'
+            containerStyle.opacity = 0
+            iconClasses = "btn-floating btn-large black"
+            iconName = "list"
+        }
 
         return (
-            <div className="valign-wrapper" style={containerStyle}>
-                <div style={{position:'relative', left: '50%'}}>
-                    <img className="responsive-img circle waves-effect waves-light waves-circle" 
-                                    src="img/ui/arrow_single_step.png" 
-                                    style={{width: '50px'}}>
-                    </img>
-                </div>
-                <div className="container grey z-depth-2">
-                    <div className="row valign-wrapper" style={{height: '100%'}}>
-                        <div className="col s3 center-align" style={sectionStyle}><CompanyFilter filterUpdate={this.updateSingleFilter('company')}/></div>
-                        <div className="col s3 center-align" style={sectionStyle}><YearTool filterUpdate={this.updateSingleFilter('year')} minYear={1990} maxYear={2020}/></div>
-                        <div className="col s3 center-align" style={sectionStyle}><FocusTool focusUpdate={this.props.focusUpdate}/></div>
-                        <div className="col s3 center-align" style={sectionStyle}>All / Clear</div>
+            <div>
+                <div className="valign-wrapper" style={containerStyle}>
+                    <div className="container grey z-depth-2">
+                        <div className="row valign-wrapper" style={{ height: '100%' }}>
+                            <div className="col s4 center-align" style={sectionStyle}><CompanyFilter filterUpdate={this.updateSingleFilter('company')} /></div>
+                            <div className="col s4 center-align" style={sectionStyle}><FocusTool focusUpdate={this.props.focusUpdate} /></div>
+                            <div className="col s4 center-align" style={sectionStyle}><ResetTool resetFiltersAndFocus={this.props.resetFiltersAndFocus} /></div>
+                        </div>
                     </div>
+                </div>
+                <div className={iconClasses} style={{ position: 'absolute', left: '5%', bottom: '5%' }}>
+                    <i className="material-icons large" onClick={this.flipEnabled()}>{iconName}</i>
                 </div>
             </div>
         )
